@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BMI_WPF"
         mc:Ignorable="d"
-        Title="BMI計算" Height="350" Width="525">
-    <Grid>
+        Title="BMI計算" Height="350" Width="525"
+        Background="AliceBlue">
+    <StackPanel>
+
+        <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="40,20,0,0" Foreground="SteelBlue" > 
+            身高：
+        </TextBlock>
+
+        <TextBox FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="-130,-28,0,0" ></TextBox>
+
+        <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="40,20,0,0" Foreground="SteelBlue" > 
+            體重：       
+        </TextBlock>
+
+        <TextBox FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="-130,-28,0,0" ></TextBox>
         
-    </Grid>
+    </StackPanel>
 </Window>
