@@ -9,17 +9,23 @@
         Background="AliceBlue">
     <StackPanel>
 
-        <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="40,20,0,0" Foreground="SteelBlue" > 
+        <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="110,20,0,0" Foreground="SteelBlue" > 
             身高：
         </TextBlock>
 
-        <TextBox FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="-130,-28,0,0" ></TextBox>
+        <TextBox FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" BorderBrush="LightSteelBlue" ></TextBox>
 
-        <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="40,20,0,0" Foreground="SteelBlue" > 
+        <Button FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
+
+        <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="110,20,0,0" Foreground="SteelBlue" > 
             體重：       
         </TextBlock>
 
-        <TextBox FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="-130,-28,0,0" ></TextBox>
-        
+        <TextBox FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" BorderBrush="LightSteelBlue" ></TextBox>
+
+        <Button FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
+
+        <Button FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,20,0,0" Foreground="DarkCyan" Background="LightBlue" BorderBrush="Teal" >計算</Button>
+
     </StackPanel>
 </Window>
