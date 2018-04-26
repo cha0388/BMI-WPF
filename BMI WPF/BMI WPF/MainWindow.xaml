@@ -6,30 +6,31 @@
         xmlns:local="clr-namespace:BMI_WPF"
         mc:Ignorable="d"
         Title="BMI計算" Height="350" Width="525"
-        Background="AliceBlue">
+        Background="MintCream">
     <StackPanel>
 
         <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="110,20,0,0" Foreground="SteelBlue" > 
             身高：
         </TextBlock>
 
-        <TextBox Name="Box1" TextInput="TextBox1_TextInput" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" BorderBrush="LightSteelBlue" ></TextBox>
+        <TextBox Name="Box1" TextInput="TextBox1_TextInput" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" Foreground="SteelBlue" BorderBrush="LightSteelBlue" ></TextBox>
 
-        <Button Click="Delete1_Click" FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
+        <Button Name ="Del1" Click="Delete1_Click" FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
 
         <TextBlock FontFamily="Microsoft JhengHei" FontSize="20" Margin="110,20,0,0" Foreground="SteelBlue" > 
-            體重：       
+            體重：
         </TextBlock>
 
-        <TextBox Name="Box2" TextInput="TextBox2_TextInput" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" BorderBrush="LightSteelBlue" ></TextBox>
+        <TextBox Name="Box2" TextInput="TextBox2_TextInput" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" Foreground="SteelBlue" BorderBrush="LightSteelBlue" ></TextBox>
 
-        <Button Click="Delete2_Click" FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
+        <Button Name ="Del2"  Click="Delete2_Click" FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
+
+        <Button Name="B" Click="Button_Click" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,20,0,0" Foreground="DarkCyan" Background="LightBlue" BorderBrush="Teal" >計算</Button>
+
+        <Border Height="2" Margin="0,20,0,0" Background="CadetBlue"></Border>
         
-        <Button  Click="Button_Click" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,20,0,0" Foreground="DarkCyan" Background="LightBlue" BorderBrush="Teal" >計算</Button>
-
-        <TextBlock FontFamily="Microsoft JhengHei" FontSize="15" Margin="110,40,0,0" Foreground="SteelBlue" >BMI值：</TextBlock>
+        <TextBlock FontFamily="Microsoft JhengHei" FontSize="15" Margin="110,20,0,0" Foreground="SteelBlue" >BMI值：</TextBlock>
 
         <TextBlock Name="Text1" FontFamily="Microsoft JhengHei" FontSize="40" Margin="0,20,0,0" Foreground="SteelBlue" TextAlignment="Center" >0</TextBlock>
-
     </StackPanel>
 </Window>

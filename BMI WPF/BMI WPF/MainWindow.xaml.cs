@@ -43,6 +43,7 @@ namespace BMI_WPF
 
         private void Delete1_Click(object sender, RoutedEventArgs e)
         {
+            Del1.Background = Brushes.LemonChiffon;
             Box1.Clear();
         }
 
@@ -59,6 +60,7 @@ namespace BMI_WPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            B.Background = Brushes.Teal;
             string height = Box1.Text;
             string weight = Box2.Text;
             float H = (float)int.Parse(height) / 100;
