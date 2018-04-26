@@ -13,7 +13,7 @@
             身高：
         </TextBlock>
 
-        <TextBox Name="Box1" TextInput="TextBox1_TextInput" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" Foreground="SteelBlue" BorderBrush="LightSteelBlue" ></TextBox>
+        <TextBox Name="Box1"  FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" Foreground="SteelBlue" BorderBrush="LightSteelBlue" ></TextBox>
 
         <Button Name ="Del1" Click="Delete1_Click" FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
 
@@ -21,7 +21,7 @@
             體重：
         </TextBlock>
 
-        <TextBox Name="Box2" TextInput="TextBox2_TextInput" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" Foreground="SteelBlue" BorderBrush="LightSteelBlue" ></TextBox>
+        <TextBox Name="Box2" FontFamily="Microsoft JhengHei" FontSize="20" Height="30" Width="180" Margin="0,-28,0,0" Foreground="SteelBlue" BorderBrush="LightSteelBlue" ></TextBox>
 
         <Button Name ="Del2"  Click="Delete2_Click" FontFamily="Microsoft JhengHei" FontSize="15" Height="30" Width="80" Margin="280,-30,0,0" Foreground="Teal" Background="LightCyan" BorderBrush="Teal" >消除</Button>
 
