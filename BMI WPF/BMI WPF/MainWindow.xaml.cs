@@ -34,10 +34,26 @@ namespace BMI_WPF
             InitializeComponent();
         }
 
-        private void Bar1_Changed(object sender, RoutedEventArgs e)
+        //拖動Bar1的觸發事件
+        private void Bar_Changed(object sender, RoutedEventArgs e)
         {
+            //Box1、Box2分別顯示Bar1、Bar2的數值
             Box1.Text = Bar1.Value.ToString();
+
+            Box2.Text = Bar2.Value.ToString();
+
+            //導入Box1、Box2的文字並轉為數值，設為height跟weight
+            string height = Box1.Text;
+            string weight = Box2.Text;
+
+            //計算bmi
+            float H = (float)int.Parse(height) / 100;
+            float bmi = (int.Parse(weight) / (H * H));
+
+            //寫出bmi並取到小數點後第二位
+            Text1.Text = bmi.ToString("0.00");
         }
+
         //點擊Del1會觸發以下事件
         private void Delete1_Click(object sender, RoutedEventArgs e)
         {
