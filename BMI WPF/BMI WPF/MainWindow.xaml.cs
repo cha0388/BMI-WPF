@@ -72,21 +72,5 @@ namespace BMI_WPF
             //清除TextBox2的內容
             Box2.Clear();
         }
-
-        //點擊B會觸發以下事件
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //導入Box1、Box2的文字並轉為數值，設為height跟weight
-            string height = Box1.Text;
-            string weight = Box2.Text;
-
-            //計算bmi
-            float H = (float)int.Parse(height) / 100;
-            float bmi = (int.Parse(weight) / (H * H));
-
-            //寫出bmi並取到小數點後第二位
-            Text1.Text = bmi.ToString("0.00") ;
-        }
-        
     }
 }
