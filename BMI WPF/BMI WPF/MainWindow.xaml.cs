@@ -34,6 +34,10 @@ namespace BMI_WPF
             InitializeComponent();
         }
 
+        private void Bar1_Changed(object sender, RoutedEventArgs e)
+        {
+            Box1.Text = Bar1.Value.ToString();
+        }
         //點擊Del1會觸發以下事件
         private void Delete1_Click(object sender, RoutedEventArgs e)
         {
